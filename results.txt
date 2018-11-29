@@ -1,0 +1,13 @@
+The experiment was done on 20newsgroup data.
+
+clustering was done using k-mean and tf-idf
+
+Purpose was to see if we can find out right number of clusters we should have.
+
+Plot using Silhouette Coefficient was somewhat giving some intution about number of clusters,
+but the result was not as much clear (8-9, 19-21, 24-25)
+
+As the number of clusters increased the score became less informative
+
+The inertia (squered distence from centroid) was also not a good measure as the elbow was not clearly visible, And the inertia decreased almost linearly with number of clusters
+
